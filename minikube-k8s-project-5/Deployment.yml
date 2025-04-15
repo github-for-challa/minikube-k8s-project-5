@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: my-app
-          image: docker.io/challa1/nginx:latest
+          image: docker.io/Dockerhub_username/nginx:latest
           ports:
             - containerPort: 80
       imagePullSecrets:
